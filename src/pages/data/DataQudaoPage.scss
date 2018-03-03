@@ -1,0 +1,56 @@
+.data-qudao-page {
+  .head-bar-wrap {
+    box-shadow: 0 2px 1px rgba(0,0,0,.5);
+    padding   : 10px 0;
+  }
+  .head-bar {
+    line-height: 0;
+    img {
+      float : left;
+      height: 50px;
+    }
+    p {
+      height     : 50px;
+      line-height: 50px;
+      font-size  : 40px;
+      text-align : center;
+    }
+  }
+  .data-wrap {
+    // 时间选择
+    .date-wrap {
+      padding: 40px 0;
+      .label {
+        font-size   : 20px;
+        margin-right: 20px;
+      }
+      input {
+        border      : 1px solid #ddd;
+        height      : 36px;
+        line-height : 36px;
+        padding-left: 10px;
+        margin-right: 20px;
+      }
+    }
+  }
+  .list-wrap {
+    min-height: 300px;
+  }
+  // 分页
+  .page-fy {
+    span {
+      display         : inline-block;
+      width           : 120px;
+      height          : 40px;
+      line-height     : 40px;
+      margin-right    : 10px;
+      background-color: #2185d0;
+      color           : #fff;
+      text-align      : center;
+      cursor          : pointer;
+      &.disable {
+        background-color: #cacbcd;
+      }
+    }
+  }
+}

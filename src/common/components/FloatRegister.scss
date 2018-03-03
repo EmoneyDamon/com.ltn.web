@@ -1,0 +1,70 @@
+.ui.modal > .content {
+  padding: 0;
+}
+.ui.active.modal {
+    width: 900px;
+}
+.reg-form-containA {
+  position: relative;
+  .register-wrap{
+    top: 14px;
+    left: inherit;
+  }
+  i.icon {
+    position: absolute;
+    right: -350px;
+    top: 0px;
+  }
+  .vice-title{
+    font-size: 20px;
+    color: #333;
+    position: absolute;
+    width: 350px;
+    text-align: center;
+    top: 10px;
+  }
+}
+
+.pity-contain{
+  width: 350px;
+  position: relative;
+  p{
+    margin: 0;
+    text-align: center;
+  }
+  .pity-text{
+    padding: 140px 20px 90px;
+    font-size: 18px;
+    color: #333;
+  }
+  .lure-text{
+    font-size: 14px;
+    color: #999;
+    span{
+      color: #f00;
+    }
+  }
+  .btn-contain{
+    width: 300px;
+    margin: 10px auto;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    span{
+      background: #ff8400;
+      width: 140px;
+      height: 50px;
+      padding: 11px 30px;
+      line-height: 50px;
+      box-shadow:0 20px 20px rgba(255, 132, 0, .2);
+      &:first-child{
+        margin-right: 20px;
+      }
+    }
+  }
+  i.link.icon{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+}
